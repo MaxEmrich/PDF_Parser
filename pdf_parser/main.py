@@ -29,7 +29,7 @@ def get_downloads_folder():
     else:
         return None  # Unsupported OS
 
-downloads_folder = get_downloads_folder()
+downloads_folder = get_downloads_folder() 
 
 #clean up user input text:
 def cleanUpText(original_input_text) -> str:
